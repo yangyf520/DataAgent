@@ -47,6 +47,8 @@ spring:
             bucket-name: ${OSS_BUCKET_NAME:}
             custom-domain: ${OSS_CUSTOM_DOMAIN:}
         max-sql-retry-count: 10
+        # 上传文件时是否按行切分
+        split-by-line: false
   servlet:
     multipart:
       max-file-size: 10MB

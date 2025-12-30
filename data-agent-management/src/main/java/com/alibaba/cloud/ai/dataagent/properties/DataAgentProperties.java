@@ -30,6 +30,11 @@ public class DataAgentProperties {
 	private LlmServiceEnum llmServiceType = LlmServiceEnum.STREAM;
 
 	/**
+	 * 是否按行进行分块 默认值：false
+	 */
+	private boolean splitByLine = false;
+
+	/**
 	 * spring.ai.alibaba.data-agent.embedding-batch.encoding-type=cl100k_base
 	 * spring.ai.alibaba.data-agent.embedding-batch.max-token-count=2000
 	 * spring.ai.alibaba.data-agent.embedding-batch.reserve-percentage=0.2
