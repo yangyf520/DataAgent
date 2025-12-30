@@ -240,6 +240,12 @@
             <groupId>org.springframework.ai</groupId>
             <artifactId>spring-ai-openai</artifactId>
         </dependency>
+
+        <!-- milvus  -->
+         <dependency>
+             <groupId>org.springframework.ai</groupId>
+             <artifactId>spring-ai-starter-vector-store-milvus</artifactId>
+         </dependency>
     </dependencies>
 
     <build>
